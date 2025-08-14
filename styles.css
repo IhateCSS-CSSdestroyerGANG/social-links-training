@@ -1,0 +1,80 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap');
+
+
+body{
+    display: flex;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: hsl(0, 0%, 8%);
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.card_container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(0, 0%, 12%);
+    max-width: 400px;
+    border-radius: 16px;
+    min-width: 340px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+}
+
+strong, b {
+  font-weight: 600;
+}
+
+button{
+    border: none;
+    width: 100%;
+    max-width: 280px;
+    background-color: hsl(0, 0%, 20%);
+    color: white;
+    border-radius: 10px;
+    height: 40px;
+}
+
+button:active{
+    background-color: hsl(75, 94%, 57%);
+    color: hsl(0, 0%, 8%);
+}
+
+.card_location{
+    color: hsl(75, 94%, 57%);
+    margin-top: 5px;
+}
+
+.card_name{
+    color: white;
+    margin-bottom: 5px;
+}
+
+.card_description{
+    color: white;
+    margin-bottom: 0px;
+}
+
+.card_buttons{
+    margin-top: 0px;
+    min-width: 340px;
+    padding: 20px;
+    display: flex;
+    row-gap: 15px;
+    flex-direction: column;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.card_container_image{
+    margin-top: 30px;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
